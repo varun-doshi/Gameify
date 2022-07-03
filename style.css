@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:azure;
+    position: relative;
+    z-index: 1; 
+}
+.navbar-brand:hover{
+    color:#2B478B ;
+    transform: scale(1.04);
+}
+.nav-points{
+    margin-right: 33px;
+    font-size: 1.2rem;
+    color: azure;
+}
+.nav-bg{
+    background-color: #F77D48;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+    color: #2B478B;
+}
+.logo{
+    padding-left: 20px;
+}
+.hamburger{
+    color: white;
+}
+.collapse{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+
+
+/* Hero section */
+.landing-page{
+    background-color: #F77D48;  
+}
+.title-box{
+    margin: auto;
+    text-align: center;
+}
+.img-box{
+    text-align: center;
+}
+.title-text{
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 50px;
+    text-align: center;
+    color: azure;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.title-img{
+    width: 80%;
+    margin: 80px 50px;
+    position: relative;
+    z-index: 1;
+}
+.start-btn{
+    margin: 10px 0 70px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.8rem;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+.start-btn:hover{
+    background-color: #2B478B;
+    color: #F77D48;
+}
+.ghost-icon{
+    padding-right: 10px;
+}
+.test{
+    position: absolute;
+    top: -68px;
+    left: -63px;
+    width: 450px;
+}
+.test1{
+    position: absolute;
+    width: 450px;
+    top: 188px;
+    right: -3px;
+    transform: rotate(180deg);
+}
+
+
+/* Features */
+#features{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.feature-box{
+    padding: 30px 77px 50px;
+    margin: 80px 0;
+}
+.feature-img{
+    margin-bottom: 30px;
+}
+.feature-heading{
+    color: #F77D48;
+    font-family: 'Lilita One', cursive;
+    font-weight: 100;
+}
+.feature-text{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+/* Testimonials */
+#testimonial{
+    background-color: #F77D48;
+    text-align: center;
+    color: #fff;
+}
+.heading{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 3.7rem;
+    padding: 40px 0 20px;
+    color: #fff;
+}
+.heading-orange{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 3.7rem;
+    padding: 40px 0 20px;
+    color: #F77D48;
+}
+.testimonial-img{
+    width: 15%;
+}
+.testimonial-box{
+    padding: 40px 0;
+}
+.person{
+    font-size: 1.5rem;
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding: 10px 0 20px;
+}
+.testimmonial-text{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.testimonial-box p{
+    padding: 0 230px;
+}
+.company{
+    padding: 5px 0;
+}
+
+
+
+/* Partners */
+#partners{
+    background-color: #F77D48;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+.partner-logo{
+    margin: auto;
+}
+
+
+
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding: 0 120px 20px;
+    background-color: #2B478B;
+    
+}
+.card{
+    border: none;
+    margin: 5px;
+    overflow-y: visible;
+}
+.price-card{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+.card-header{
+    background-color: #F77D48;
+}
+.pack-heading{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding: 10px 0 10px;
+    color: #fff;
+    
+}
+.card-text{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.points{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+.enroll-btn{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F77D48;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.enroll-btn:hover{
+    background-color: #e0622c;
+    color: #fff;
+}
+.demo-btn{
+    margin: 30px 0 10px;
+    width: 100%;
+    color: #2B478B;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border: 1px solid #2B478B;
+}
+.demo-btn:hover{
+    color: #fff;
+    background-color: #2B478B;
+    border: none;
+}
+
+
+
+/* Footer */
+#footer{
+    margin: 40px 0;
+    text-align: center;
+}
+.footer-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: #2B478B;
+}
+.fa-brands{
+    color: #2B478B;
+    font-size: 1.7rem;
+    margin: 40px 30px;
+}
+.fa-brands:hover{
+    color: #F77D48;
+    transform: scale(1.1);
+}
+
+
+
+
+/* Media Queries */
+@media (max-width:768px){
+    .title-img{
+        margin: 0 20px;
+    }
+
+    .feature-box{
+        margin: 10px 0;
+        padding: 20px 85px  ;
+    }
+    .testimonial-box p{
+        padding:0 100px;
+    }
+    .partner-logo{
+        margin-top: 20px;
+    }
+    .card{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:600px){
+    .testimonial-box p{
+        padding:0 40px;
+    }
+    #pricing{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:992px){
+    #pricing{
+        padding: 0 30px;
+    }
+    #features .container{
+        max-width: 900px;
+    }
+    .feature-box{
+        padding: 30px 30px;
+    }
+}
